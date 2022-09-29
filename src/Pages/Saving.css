@@ -1,0 +1,142 @@
+.saving1 h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.saving1 h2 {
+  font-family: DM Sans;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.saving1 p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.savings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+
+  width: 1200px;
+  height: 268px;
+}
+
+.laptop {
+  width: 214px;
+  height: 214px;
+  position: relative;
+  background: #e8f2ee;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.image {
+  position: absolute;
+  left: 72px;
+  top: 65px;
+}
+
+.laptop-main h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.laptop-main p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.laptop-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 214px;
+  height: 280px;
+}
+
+.saving2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 33px;
+
+  width: 1200px;
+  height: 280px;
+}
+
+.icon {
+  position: absolute;
+  left: 92px;
+  top: 92px;
+  color: white;
+}
+
+.bicyle {
+  width: 214px;
+  height: 214px;
+  position: relative;
+  background: #f1dfdf;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.airplane {
+  width: 214px;
+  height: 214px;
+  position: relative;
+  background: #dfe1f1;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.camera {
+  width: 214px;
+  height: 214px;
+  position: relative;
+  background: #dfebf1;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.saving4 {
+  padding: 0px;
+  gap: 33px;
+
+  width: 1200px;
+  height: 280px;
+}

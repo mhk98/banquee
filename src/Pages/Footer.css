@@ -1,0 +1,31 @@
+.footer {
+  color: rgba(26, 25, 30, 0.5);
+}
+
+.heading {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+
+  letter-spacing: -0.03em;
+
+  /* text/default */
+
+  color: #1a191e;
+}
+
+.nav {
+  width: 76px;
+  height: 26px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+
+  color: rgba(26, 25, 30, 0.5);
+}

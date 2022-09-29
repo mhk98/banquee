@@ -1,0 +1,52 @@
+.features h3 {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 110%;
+  letter-spacing: -0.03em;
+  font-family: "DM Sans";
+  color: #1a191e;
+}
+
+.content {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+}
+
+.description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.transaction{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 16px;
+width: 284px;
+height: 264px;
+border: 2px solid #E8E8E8;
+border-radius: 16px;
+box-sizing: border-box;
+}
+
+.main-transaction{
+padding: 0px;
+gap: 32px;
+
+width: 600px;
+height: 264px;
+}
+
+
+
+
+
+
+

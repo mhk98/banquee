@@ -1,0 +1,32 @@
+.tools1 h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.tools1 h2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 110%;
+  /* or 70px */
+
+  letter-spacing: -0.03em;
+}
+
+.tools1 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.9551px;
+  line-height: 180%;
+}
+
+.tools {
+  padding: 0px;
+  justify-content: space-between;
+}

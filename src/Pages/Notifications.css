@@ -1,0 +1,99 @@
+.notifications {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  /* align-items: center; */
+  
+
+  /* width: 1200px;
+  height: 473.84px; */
+}
+
+.banko {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+
+  width: 498.75px;
+  height: 82px;
+
+  /* background/muted */
+
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+
+.banko p {
+  width: 400.75px;
+  height: 20px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.9501px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: -0.03em;
+}
+
+.banko h6 {
+  width: 400.75px;
+  height: 26px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.banko-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15.96px;
+
+  /* width: 498.75px;
+  height: 473.84px; */
+}
+
+
+.notification1 h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.notification1 h2 {
+  font-family: DM Sans;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.notification1 p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .notifications {
+    display: grid;
+    grid-template-columns: 1;
+  }
+
+}
