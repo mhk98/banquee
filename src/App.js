@@ -11,7 +11,7 @@ import Transactions from './Pages/Transactions';
 
 function App() {
   return (
-    <div className="App mx-auto">
+    <div className="App">
       <Header></Header>
       <Banner></Banner>
       <Features></Features>

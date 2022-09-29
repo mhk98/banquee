@@ -7,7 +7,7 @@ import "./Notifications.css";
 const Notifications = () => {
   return (
     <div>
-      <div className="flex mx-16 my-20 notifications  flex-row justify-between items-center">
+      <div className="hidden lg:flex mx-16 my-20 notifications  flex-row justify-between items-center">
         <div>
           <div className="notification1">
             <h5>Notifications</h5>
@@ -85,7 +85,7 @@ const Notifications = () => {
         </div>
       </div>
 
-      {/* <div className=" notifications lg:hidden grid grid-cols-1">
+      <div className=" notifications lg:hidden grid grid-cols-1 px-4">
         <div>
           <div className="notification1">
             <h5>Notifications</h5>
@@ -124,36 +124,36 @@ const Notifications = () => {
           </div>
         </div>
 
-        <div className="banko-main">
-          <div className="banko">
+        <div className="banko-main1 w-full">
+          <div className="banko1 w-full">
             <img src={app} alt="" />
             <div className="text-left">
               <p className="font-bold">Banko.</p>
               <h6>You payment of 49€ has been processed!</h6>
             </div>
           </div>
-          <div className="banko">
+          <div className="banko1 w-full">
             <img src={app} alt="" />
             <div className="text-left">
               <p className="font-bold">Banko.</p>
               <h6>You got a new support message!</h6>
             </div>
           </div>
-          <div className="banko">
+          <div className="banko1 w-full">
             <img src={app} alt="" />
             <div className="text-left">
               <p className="font-bold">Banko.</p>
               <h6>You payment was declined!</h6>
             </div>
           </div>
-          <div className="banko">
+          <div className="banko1 w-full">
             <img src={app} alt="" />
             <div className="text-left">
               <p className="font-bold">Banko.</p>
               <h6>Please verify your payment of 99€!</h6>
             </div>
           </div>
-          <div className="banko">
+          <div className="banko1 w-full">
             <img src={app} alt="" />
             <div className="text-left">
               <p className="font-bold">Banko.</p>
@@ -161,7 +161,7 @@ const Notifications = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
