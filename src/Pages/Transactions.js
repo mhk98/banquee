@@ -117,13 +117,15 @@ const Transactions = () => {
         </div>
       </div>
 
-      <div className="lg:hidden flex flex-col items-center bg-[#E8F2EE]  py-32 my-24 gap-8 px-8 w-full">
-        <div className="transactions1 mb-8 w-full">
+      <div className="lg:hidden py-8 px-4 my-12">
+        <div className="trans mt-8 mx-4">
           <h1>Send & receive</h1>
           <h1>money instantly</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
           <p>sed do eiusmod tempor incididunt ut labore et.</p>
+        </div>
 
+        <div className="mx-4">
           <div className="pt-8 flex items-center gap-2">
             <FontAwesomeIcon
               className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"
@@ -147,8 +149,8 @@ const Transactions = () => {
           </div>
         </div>
 
-        <div className="transactions3 w-full">
-          <div className="apple1 w-full">
+        <div className="mt-12">
+          <div className="apple1 mt-4 mx-4">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"
@@ -161,7 +163,8 @@ const Transactions = () => {
             </div>
             <h6 className="font-bold">-999€</h6>
           </div>
-          <div className="apple1 w-full">
+
+          <div className="apple1 mt-4 mx-4">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"
@@ -174,7 +177,7 @@ const Transactions = () => {
             </div>
             <h6 className="font-bold">-49€</h6>
           </div>
-          <div className="apple1 w-full">
+          <div className="apple1 mt-4 mx-4">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"
@@ -187,7 +190,7 @@ const Transactions = () => {
             </div>
             <h6 className="font-bold">-29€</h6>
           </div>
-          <div className="apple1 w-full">
+          <div className="apple1 mt-4 mx-4">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"
@@ -200,7 +203,7 @@ const Transactions = () => {
             </div>
             <h6 className="font-bold">-149€</h6>
           </div>
-          <div className="apple1 w-full">
+          <div className="apple1 mt-4 mx-4">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"
@@ -213,7 +216,7 @@ const Transactions = () => {
             </div>
             <h6 className="font-bold">-14€</h6>
           </div>
-          <div className="apple1 w-full">
+          <div className="apple1 mt-4 mx-4">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"

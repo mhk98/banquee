@@ -25,7 +25,7 @@
   text-align: left;
 }
 
-h6 {
+.transactions1 h6 {
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
@@ -60,25 +60,39 @@ h6 {
   z-index: 1;
   order: 1;
 }
-.transactions3 {
-  gap: 16px;
-  width: 400px;
-  height: 578px;
-  right: 340px;
-  top: calc(50% - 578px / 2 + 57.28px);
-  
+
+.trans h1 {
+  font-family: DM Sans;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.trans p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.trans h5 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .apple1 {
+  text-align: left;
   display: flex;
-  /* flex-direction: row; */
-  align-items: center;
-  padding: 16px 28px 16px 16px;
-  gap: 16px;
-  width: 330px;
-  height: 83px;
-  background: #ffffff;
-  border-radius: 10px;
   justify-content: space-between;
-  margin: 0 auto;
+  background: #ffffff;
+  padding: 16px 24px 16px 16px;
+  border-radius: 10px;
 }

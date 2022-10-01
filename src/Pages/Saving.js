@@ -115,7 +115,7 @@ const Saving = () => {
           </div>
           <div className="laptop-main text-left">
             <div className="laptop">
-              <img className="image" src={bicycle} alt="" />
+              <img className="image " src={bicycle} alt="" />
             </div>
             <div>
               <h5>Dream bike</h5>
