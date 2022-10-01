@@ -85,7 +85,7 @@ const Notifications = () => {
         </div>
       </div>
 
-      <div className=" notifications lg:hidden grid grid-cols-1 px-4">
+      <div className=" notifications lg:hidden grid grid-cols-1 px-4 gap-8 mx-auto">
         <div>
           <div className="notification1">
             <h5>Notifications</h5>

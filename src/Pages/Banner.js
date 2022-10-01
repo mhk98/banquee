@@ -52,7 +52,7 @@ const Banner = () => {
         </div>
         </div>
 
-        <div className='lg:hidden grid grid-cols-1 gap-8 items-center text-left px-12 my-28 banner'>
+        <div className='lg:hidden grid grid-cols-1 gap-8 items-center text-left px-8 my-28 banner'>
             <div className=''>
             <h1>Banking</h1>
             <h1 className='pb-4'>starts here.</h1>

@@ -107,7 +107,7 @@ const Features = () => {
           <img src={app} alt="" />
         </div>
       </div>
-      <div className=" lg:hidden items-center px-16 feature">
+      <div className=" lg:hidden items-center gap-8 px-8 feature">
         <div className="features text-left">
           <div className="pb-12">
             <h3>One app.</h3>

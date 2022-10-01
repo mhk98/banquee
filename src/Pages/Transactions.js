@@ -4,7 +4,7 @@ import React from "react";
 import "./Transactions.css";
 const Transactions = () => {
   return (
-    <div className="bg-[#E8F2EE] ">
+    <div className="bg-[#E8F2EE] w-full">
       <div className="hidden lg:flex transactions py-32 my-24 px-16  justify-between">
         <div className="transactions1 mb-8">
           <h1>Send & receive</h1>
@@ -117,7 +117,7 @@ const Transactions = () => {
         </div>
       </div>
 
-      <div className=" bg-[#E8F2EE] py-32 my-24 lg:hidden flex flex-col items-center gap-8 px-4">
+      <div className="lg:hidden flex flex-col items-center bg-[#E8F2EE]  py-32 my-24 gap-8 px-8 w-full">
         <div className="transactions1 mb-8 w-full">
           <h1>Send & receive</h1>
           <h1>money instantly</h1>
@@ -147,8 +147,8 @@ const Transactions = () => {
           </div>
         </div>
 
-        <div className="transactions2 lg:hidden grid grid-cols-1 place-content-center w-full px-12">
-          <div className="apple w-full">
+        <div className="transactions3 w-full">
+          <div className="apple1 w-full">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"
@@ -161,7 +161,7 @@ const Transactions = () => {
             </div>
             <h6 className="font-bold">-999€</h6>
           </div>
-          <div className="apple w-full">
+          <div className="apple1 w-full">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"
@@ -174,7 +174,7 @@ const Transactions = () => {
             </div>
             <h6 className="font-bold">-49€</h6>
           </div>
-          <div className="apple w-full">
+          <div className="apple1 w-full">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"
@@ -187,7 +187,7 @@ const Transactions = () => {
             </div>
             <h6 className="font-bold">-29€</h6>
           </div>
-          <div className="apple w-full">
+          <div className="apple1 w-full">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"
@@ -200,7 +200,7 @@ const Transactions = () => {
             </div>
             <h6 className="font-bold">-149€</h6>
           </div>
-          <div className="apple w-full">
+          <div className="apple1 w-full">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"
@@ -213,7 +213,7 @@ const Transactions = () => {
             </div>
             <h6 className="font-bold">-14€</h6>
           </div>
-          <div className="apple w-full">
+          <div className="apple1 w-full">
             <div className="flex gap-2">
               <FontAwesomeIcon
                 className="w-4 h-4 p-2 text-xl rounded-full bg-[#5BB5A2] text-[#E8F2FE]"

@@ -83,8 +83,8 @@ const Saving = () => {
         </div>
       </div>
 
-      <div className="lg:hidden grid grid-cols-1 px-16">
-        <div className="">
+      <div className="lg:hidden grid grid-cols-1 gap-8 px-8 mx-auto items-center place-content-center">
+        <div className="mx-auto">
           <div className="saving1">
             <h5>Saving Accounts</h5>
             <h2>Organize your</h2>
@@ -95,13 +95,13 @@ const Saving = () => {
             <p> eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
 
-          <div className="flex items-center gap-2 text-[#5BB5A2]">
+          <div className="flex items-center mt-4 gap-2 text-[#5BB5A2]">
             <p>All Features</p>
             <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
           </div>
         </div>
 
-        <div className="">
+        <div className="mx-auto">
           <div className="laptop-main text-left">
             <div className="laptop">
               <img className="image" src={laptop} alt="" />
